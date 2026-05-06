@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import { ko } from '../ko/config.mts'
+import { en } from '../en/config.mts'
 import type { LanguageRegistration } from 'shiki'
 import junlangGrammar from './syntaxes/junlang.tmLanguage.json'
 
@@ -16,7 +17,8 @@ export default defineConfig({
   },
 
   locales: {
-    ko: { label: '한국어', ...ko }
+    ko: { label: '한국어', ...ko },
+    en: { label: 'English', ...en }
   },
   markdown: {
     languages: [
