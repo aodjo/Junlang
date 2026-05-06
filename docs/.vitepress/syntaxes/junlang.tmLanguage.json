@@ -1,0 +1,119 @@
+{
+  "name": "junlang",
+  "scopeName": "source.junlang",
+  "patterns": [
+    {
+      "begin": "참고로",
+      "end": "알았냐\\?",
+      "name": "comment.block.junlang"
+    },
+    {
+      "match": "걍.*$",
+      "name": "comment.line.junlang"
+    },
+    {
+      "match": "준서야",
+      "name": "keyword.control.conditional.junlang"
+    },
+    {
+      "match": "맞냐\\?",
+      "name": "keyword.control.conditional.junlang"
+    },
+    {
+      "match": "아니면",
+      "name": "keyword.control.conditional.junlang"
+    },
+    {
+      "match": "이건\\?",
+      "name": "keyword.control.conditional.junlang"
+    },
+    {
+      "match": "아니냐\\?",
+      "name": "keyword.control.conditional.junlang"
+    },
+    {
+      "match": "또처먹냐\\?",
+      "name": "keyword.control.loop.junlang"
+    },
+    {
+      "match": "더처먹어",
+      "name": "keyword.control.flow.junlang"
+    },
+    {
+      "match": "그만처먹어",
+      "name": "keyword.control.flow.junlang"
+    },
+    {
+      "match": "(?<=~)준서",
+      "name": "keyword.operator.assignment.junlang"
+    },
+    {
+      "match": "오ㅋ준ㅋ서ㅋ",
+      "name": "support.function.input.junlang"
+    },
+    {
+      "match": "(?<=^|ㅋ|\\s)오준서(?!ㅋ)",
+      "name": "support.function.output.junlang"
+    },
+    {
+      "match": "준",
+      "name": "punctuation.section.parens.begin.junlang"
+    },
+    {
+      "match": "서",
+      "name": "punctuation.section.parens.end.junlang"
+    },
+    {
+      "match": "\\??(?:오+\\??)(?:\\s오\\??)*ㅋ오+(?:\\s오+)*",
+      "name": "constant.numeric.float.junlang"
+    },
+    {
+      "match": "\\??오\\?(?:\\s오\\??)*",
+      "name": "constant.numeric.zero.junlang"
+    },
+    {
+      "match": "\\??오+(?:\\s오+)*",
+      "name": "constant.numeric.integer.junlang"
+    },
+    {
+      "match": "!+(?!@)",
+      "name": "variable.other.junlang"
+    },
+    {
+      "match": "!@",
+      "name": "keyword.operator.comparison.junlang"
+    },
+    {
+      "match": "ㅁ@|ㅊ@",
+      "name": "keyword.operator.comparison.junlang"
+    },
+    {
+      "match": "@|ㅁ|ㅊ",
+      "name": "keyword.operator.comparison.junlang"
+    },
+    {
+      "match": "\\.\\.",
+      "name": "keyword.operator.arithmetic.power.junlang"
+    },
+    {
+      "match": "~",
+      "name": "keyword.operator.arithmetic.add.junlang"
+    },
+    {
+      "match": "\\.",
+      "name": "keyword.operator.arithmetic.multiply.junlang"
+    },
+    {
+      "match": "#",
+      "name": "keyword.operator.arithmetic.divide.junlang"
+    },
+    {
+      "match": "\\?",
+      "name": "keyword.operator.arithmetic.negate.junlang"
+    },
+    {
+      "match": "ㅋ",
+      "name": "punctuation.terminator.statement.junlang"
+    }
+  ]
+}
