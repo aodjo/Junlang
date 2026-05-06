@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
-import { ko } from '../ko/config.mts'
-import { en } from '../en/config.mts'
+import { ko } from '../ko/locale.mts'
+import { en } from '../en/locale.mts'
 import type { LanguageRegistration } from 'shiki'
 import junlangGrammar from './syntaxes/junlang.tmLanguage.json'
 

@@ -6,11 +6,9 @@ description: Junlang is an esoteric programming language built with Python.
 
 Junlang is an [esoteric programming language](https://en.wikipedia.org/wiki/Esoteric_programming_language) (esolang) made for O Junseo, a student in Class of 121 at [Sunrin Internet High School](https://sunrint.sen.hs.kr/).
 
-<div class="tip custom-block" style="padding-top: 8px">
-
-The information below is just [TMI](https://en.wikipedia.org/wiki/Too_much_information) that you don't need to know. If you want to jump right in, [skip ahead](/en/junlang/getting-started).
-
-</div>
+::: tip
+The information below is just [TMI](https://en.wikipedia.org/wiki/Too_much_information) that you don't need to know. If you want to jump right in, [skip ahead](../junlang/getting-started).
+:::
 
 ## Features
 
@@ -27,8 +25,6 @@ Most esolangs focus on **constraints of the language itself**. [Brainfuck](https
 Junlang takes it a step further by incorporating a **specific person** as part of the language. The variable assignment keyword is `준서`, and all errors are about O Junseo. This introduces a new dimension of **social esotericism**, distinct from the traditional "mechanical esotericism" of esolangs.
 
 ## Who on earth is O Junseo??
-<div class="tip custom-block" style="padding-top: 8px">
-
-That is covered in [this document](/en/before-starting/who-is-o-jun-seo).
-
-</div>
+::: tip
+That is covered in [this document](./who-is-o-jun-seo).
+:::

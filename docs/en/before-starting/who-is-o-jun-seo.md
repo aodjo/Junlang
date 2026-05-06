@@ -5,11 +5,9 @@ description: O Junseo is an INTP.
 # Who is O Junseo?
 As mentioned in the previous document, O Junseo is a student at [Sunrin Internet High School](https://sunrint.sen.hs.kr/) ~~and the pride of Class 4.~~
 
-<div class="tip custom-block" style="padding-top: 8px">
-
-The information below is just [TMI](https://en.wikipedia.org/wiki/Too_much_information) that you don't need to know. If you want to jump right in, [skip ahead](/en/junlang/getting-started).
-
-</div>
+::: tip
+The information below is just [TMI](https://en.wikipedia.org/wiki/Too_much_information) that you don't need to know. If you want to jump right in, [skip ahead](../junlang/getting-started).
+:::
 
 ## Personal Info
 

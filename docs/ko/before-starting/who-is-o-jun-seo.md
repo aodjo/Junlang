@@ -5,11 +5,9 @@ description: 오준서는 INTP입니다.
 # 오준서가 누구인가요?
 이전 문서에서도 말했지만 오준서는 [선린인터넷고등학교](https://sunrint.sen.hs.kr/)를 다니고 있는 ~~4반의 자랑입니다.~~  
 
-<div class="tip custom-block" style="padding-top: 8px">
-
-아래 기술된 내용은 몰라도 상관 없는 [TMI](https://ko.wikipedia.org/wiki/%EC%A0%95%EB%B3%B4_%EA%B3%BC%EB%8B%A4)입니다. 빨리 시작하고 싶으시면 [건너뛰세요](/ko/junlang/getting-started).
-
-</div>
+::: tip
+아래 기술된 내용은 몰라도 상관 없는 [TMI](https://ko.wikipedia.org/wiki/%EC%A0%95%EB%B3%B4_%EA%B3%BC%EB%8B%A4)입니다. 빨리 시작하고 싶으시면 [건너뛰세요](../junlang/getting-started).
+:::
 
 ## 인적 사항
 

@@ -6,11 +6,9 @@ description: 준랭(junlang)은 Python으로 제작된 난해한 프로그래밍
 
 준랭(Junlang)은 [선린인터넷고등학교](https://sunrint.sen.hs.kr/)를 다니고 있는 121기 오준서를 위한 [난해한 프로그래밍 언어](https://ko.wikipedia.org/wiki/%EB%82%9C%ED%95%B4%ED%95%9C_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D_%EC%96%B8%EC%96%B4) (esolang)입니다.
 
-<div class="tip custom-block" style="padding-top: 8px">
-
-아래 기술된 내용은 몰라도 상관 없는 [TMI](https://ko.wikipedia.org/wiki/%EC%A0%95%EB%B3%B4_%EA%B3%BC%EB%8B%A4)입니다. 빨리 시작하고 싶으시면 [건너뛰세요](/ko/junlang/getting-started).
-
-</div>
+::: tip
+아래 기술된 내용은 몰라도 상관 없는 [TMI](https://ko.wikipedia.org/wiki/%EC%A0%95%EB%B3%B4_%EA%B3%BC%EB%8B%A4)입니다. 빨리 시작하고 싶으시면 [건너뛰세요](../junlang/getting-started).
+:::
 
 ## 특징
 
@@ -27,8 +25,6 @@ description: 준랭(junlang)은 Python으로 제작된 난해한 프로그래밍
 준랭은 여기서 한 발 더 나아가, **특정 인물**을 언어의 일부로 편입시켰습니다. 변수 대입 키워드가 `준서`이고, 에러는 모두 오준서에 관한 것입니다. 이는 esolang의 전통적인 "기계적 난해함"과는 다른, **사회적 난해함**이라는 새로운 축을 제시합니다.
 
 ## 도대체 오준서가 누구인가요??
-<div class="tip custom-block" style="padding-top: 8px">
-
-해당 내용은 [이 문서](/ko/before-starting/who-is-o-jun-seo)에서 기술하겠습니다.
-
-</div>
+::: tip
+해당 내용은 [이 문서](./who-is-o-jun-seo)에서 기술하겠습니다.
+:::
