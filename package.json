@@ -1,0 +1,19 @@
+{
+  "name": "junlang",
+  "private": true,
+  "scripts": {
+    "build": "dotnet build junlang.sln",
+    "run": "dotnet run --project src/Junlang --",
+    "bytecode": "dotnet run --project src/Junlang -- --bytecode",
+    "publish": "npm run publish:win && npm run publish:linux",
+    "publish:framework": "dotnet publish src/Junlang/Junlang.csproj -c Release -o dist --self-contained false /p:PublishSingleFile=false /p:PublishTrimmed=false",
+    "publish:win": "dotnet publish src/Junlang/Junlang.csproj -c Release -r win-x64 --self-contained true /p:PublishSingleFile=true /p:PublishTrimmed=false -o dist-standalone",
+    "publish:linux": "dotnet publish src/Junlang/Junlang.csproj -c Release -r linux-x64 --self-contained true /p:PublishSingleFile=true /p:PublishTrimmed=false -o dist-linux",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^2.0.0-alpha.17"
+  }
+}

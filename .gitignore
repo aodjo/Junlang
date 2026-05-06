@@ -1,0 +1,10 @@
+ARCHITECTURE.md
+package-lock.json
+node_modules
+.dotnet
+dist
+dist-standalone
+dist-linux
+**/bin/
+**/obj/
+junlang.sln
