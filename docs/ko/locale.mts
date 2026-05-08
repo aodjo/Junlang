@@ -111,7 +111,7 @@ function sidebar(): DefaultTheme.Sidebar {
     {
       text: '정보',
       items: [
-        { text: 'LICENSE', link: '/ko/copyright/license'}
+        { text: 'LICENSE', link: '/ko/about/license'}
       ]
     },
   ]

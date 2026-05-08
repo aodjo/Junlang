@@ -13,7 +13,13 @@ export default defineConfig({
     ],
     search: {
       provider: 'local'
+    },
+    notFound: {
+      title: '페이지를 찾을 수 없어요. :(',
+      quote: "여러분이 페이지를 잘못 찾아오셨거나, 준서가 이 페이지를 먹었을 지도 몰라요.",
+      linkText: '홈으로 데려가줘요'
     }
+
   },
 
   locales: {
