@@ -1,52 +1,50 @@
 {
-  "hash": "ddd3e713",
-  "configHash": "57121f8e",
-  "lockfileHash": "f1f0d202",
-  "browserHash": "0eef3158",
+  "hash": "81fb5da6",
+  "configHash": "674825a8",
+  "lockfileHash": "51c692fe",
+  "browserHash": "452afd07",
   "optimized": {
-    "vue": {
-      "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
-      "file": "vue.js",
-      "fileHash": "9c4d212d",
-      "needsInterop": false
-    },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../node_modules/@vue/devtools-api/dist/index.js",
-      "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "2b057652",
+      "file": "vitepress_n_@vue_devtools-api.js",
+      "fileHash": "7a45b6e2",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../../node_modules/@vueuse/core/dist/index.js",
-      "file": "vitepress___@vueuse_core.js",
-      "fileHash": "e0b69b35",
+      "file": "vitepress_n_@vueuse_core.js",
+      "fileHash": "0ef5c231",
       "needsInterop": false
     },
     "vitepress > @vueuse/integrations/useFocusTrap": {
       "src": "../../../../node_modules/@vueuse/integrations/dist/useFocusTrap.js",
-      "file": "vitepress___@vueuse_integrations_useFocusTrap.js",
-      "fileHash": "109c8beb",
+      "file": "vitepress_n_@vueuse_integrations_useFocusTrap.js",
+      "fileHash": "491aa0a2",
       "needsInterop": false
     },
     "vitepress > mark.js/src/vanilla.js": {
       "src": "../../../../node_modules/mark.js/src/vanilla.js",
-      "file": "vitepress___mark__js_src_vanilla__js.js",
-      "fileHash": "aafb59b9",
+      "file": "vitepress_n_mark__js_src_vanilla__js.js",
+      "fileHash": "9024b4a9",
       "needsInterop": false
     },
     "vitepress > minisearch": {
       "src": "../../../../node_modules/minisearch/dist/es/index.js",
-      "file": "vitepress___minisearch.js",
-      "fileHash": "a0a12b73",
+      "file": "vitepress_n_minisearch.js",
+      "fileHash": "ab43c829",
+      "needsInterop": false
+    },
+    "vue": {
+      "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "842ceeb2",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-UPIQLODK": {
-      "file": "chunk-UPIQLODK.js"
-    },
-    "chunk-UHRETBQL": {
-      "file": "chunk-UHRETBQL.js"
+    "vue.runtime.esm-bundler-J3hhHSON": {
+      "file": "vue.runtime.esm-bundler-J3hhHSON.js",
+      "isDynamicEntry": false
     }
   }
 }
