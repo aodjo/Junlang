@@ -1,0 +1,115 @@
+{
+  "name": "junlang-highlighter",
+  "displayName": "Junlang Highlighter",
+  "description": "Syntax highlighting for the Junlang programming language (.junl)",
+  "version": "1.0.0",
+  "publisher": "aodjo",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "aodjo",
+    "email": "jjoons2010@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aodjo/junlang.git",
+    "directory": "extentions/vscode"
+  },
+  "bugs": {
+    "url": "https://github.com/aodjo/junlang/issues"
+  },
+  "homepage": "https://github.com/aodjo/junlang#readme",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "keywords": [
+    "junlang",
+    "junl",
+    "syntax highlighting",
+    "esolang"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "junlang",
+        "aliases": [
+          "Junlang",
+          "junlang"
+        ],
+        "extensions": [
+          ".junl"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "junlang",
+        "scopeName": "source.junlang",
+        "path": "./syntaxes/junlang.tmLanguage.json"
+      }
+    ],
+    "configurationDefaults": {
+      "[junlang]": {
+        "editor.bracketPairColorization.enabled": false,
+        "editor.guides.brackets": false,
+        "editor.tokenColorCustomizations": {
+          "textMateRules": [
+            {
+              "scope": "source.junlang comment",
+              "settings": {
+                "foreground": "#6A9955",
+                "fontStyle": "italic"
+              }
+            },
+            {
+              "scope": "source.junlang keyword.control",
+              "settings": {
+                "foreground": "#C586C0"
+              }
+            },
+            {
+              "scope": "source.junlang support.function",
+              "settings": {
+                "foreground": "#DCDCAA",
+                "fontStyle": "bold"
+              }
+            },
+            {
+              "scope": "source.junlang constant.numeric",
+              "settings": {
+                "foreground": "#B5CEA8"
+              }
+            },
+            {
+              "scope": "source.junlang variable",
+              "settings": {
+                "foreground": "#9CDCFE"
+              }
+            },
+            {
+              "scope": "source.junlang keyword.operator",
+              "settings": {
+                "foreground": "#569CD6"
+              }
+            },
+            {
+              "scope": "source.junlang punctuation.section.parens",
+              "settings": {
+                "foreground": "#FFD700"
+              }
+            },
+            {
+              "scope": "source.junlang punctuation.terminator",
+              "settings": {
+                "foreground": "#808080"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}
