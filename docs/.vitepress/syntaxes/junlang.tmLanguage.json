@@ -52,7 +52,7 @@
       "name": "support.function.input.junlang"
     },
     {
-      "match": "(?<=^|ㅋ|\\s)오준서(?!ㅋ)",
+      "match": "(?<=^|[\\sㅋ~.#@ㅁㅊ!준서])오준서(?!ㅋ)",
       "name": "support.function.output.junlang"
     },
     {
@@ -64,15 +64,15 @@
       "name": "punctuation.section.parens.end.junlang"
     },
     {
-      "match": "\\??(?:오+\\??)(?:\\s오\\??)*ㅋ오+(?:\\s오+)*",
+      "match": "\\??(?:오+\\??)(?:[ \\t\\r]오\\??)*ㅋ오+(?:[ \\t\\r]오+)*",
       "name": "constant.numeric.float.junlang"
     },
     {
-      "match": "\\??오\\?(?:\\s오\\??)*",
+      "match": "\\??오\\?(?:[ \\t\\r]오\\??)*",
       "name": "constant.numeric.zero.junlang"
     },
     {
-      "match": "\\??오+(?:\\s오+)*",
+      "match": "\\??오+(?:[ \\t\\r]오+)*",
       "name": "constant.numeric.integer.junlang"
     },
     {
